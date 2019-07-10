@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: darkgreen;
+    font-family: georgia;
+}
+h2{
+    text-align: center;
+    font-size: 42px;
+}
+img {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    
+}
+ /* #first{
+    line-height: 25px;
+}
+ #middle{
+    line-height: 25px;
+}
+ #last{
+    line-height: 25px;
+} */
+ul {
+    font-size: 25px;
+
+}
+h3{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+div{
+    font-size: 30px;
+}
