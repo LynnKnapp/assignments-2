@@ -33,6 +33,17 @@ p{
     display: inline-block;
     vertical-align: top;  
 }
-.vandelay {
+.vandelay, .play-now, .yankee , .soup, .merv, .sponge, .one, .two, .three {
     border: solid;
+    border-top-width: 15px;
 }
+/* .quotes >p{
+    border: solid;
+    border-top-width: 15px;   */
+/* } */
+.employment, .for-sale, .quotes >h1{
+    border: solid;
+    border-top-width: 15px;  
+}
+
+
