@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+.employment > h1{
+    font-size: 20px;
+}
+.for-sale > h1{
+    font-size: 20px; 
+}
+.quotes > h1{
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+.employment{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.for-sale{
+    width: 30%;
+    display: inline-block;
+     
+}
+.quotes{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;  
+}
+.vandelay {
+    border: solid;
+}

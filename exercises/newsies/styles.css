@@ -1,0 +1,52 @@
+.title{
+    font-size: 65px; 
+   font-family: 'Notable', sans-serif;
+   text-align: center;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    text-align: center;
+}
+.div-container{
+    display: block;
+
+
+}
+
+
+p{
+    font-size: 20px;
+
+} 
+.elaine{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.puffy{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.pirate{
+    width: 30%;
+    display: inline-block;
+
+}
+
+img{
+    height: 300px;
+    margin-left: 60px;
+}
+span{
+    font-family: 'Alfa Slab One', cursive;
+}
+.ads{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+    width: 150px;
+    margin: auto;
+}
