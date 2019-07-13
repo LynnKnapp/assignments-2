@@ -46,3 +46,14 @@ function mostOccurring(str){
         
 }
 console.log(mostOccurring("It's a Festivus for the rest of us.")) 
+
+function caps(str){
+
+    let arr = str.split(' ')
+    let hoochiArr = arr[0].split('')
+    let mammaArr = arr[1].split('')
+ 
+    return hoochiArr[0].toUpperCase() + arr[0].slice(1) + ' ' +mammaArr[0].toUpperCase() + arr[1].slice(1)
+ }
+ console.log(caps("hoochi mamaaa"))
+
