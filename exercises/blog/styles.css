@@ -1,0 +1,112 @@
+.header > h1{
+    font-size: 80px;
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    color: rgb(180, 12, 12);
+    font-style: oblique;
+    margin-bottom: 0px;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    color: rgb(180, 12, 12);
+    font-style: oblique;
+    margin-top: -26px;
+    
+}
+.top-nav{
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 20px;
+    color: blue;
+}
+.hideous > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    
+
+.hideous > h1{
+    text-align: center;
+    
+
+}
+.hideous{
+    border: dotted rgb(8, 8, 75);
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.hideous >h2{
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+}
+.hideous >p{
+font-size: 20px;
+}
+
+.sanity > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    
+
+.sanity > h1{
+    text-align: center;
+    
+
+}
+.sanity{
+    border: dotted rgb(8, 8, 75);
+    width: 70%;
+    margin-top: 1px;
+    margin-left: 220px;
+}
+.sanity >h2{
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+}
+.sanity >p{
+font-size: 20px;
+
+}
+
+.sanity > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    
+
+.george > h1{
+    text-align: center;
+}
+.george > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.george{
+    border: dotted rgb(8, 8, 75);
+    width: 70%;
+    margin-top: 0px;
+    margin-left: 220px;
+}
+.george >h2{
+    font-size: 15px;
+    padding: 10px;
+}
+.george >p{
+    font-size: 20px;
+}
