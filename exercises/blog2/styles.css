@@ -6,15 +6,50 @@
     font-style: oblique;
     margin-bottom: 0px;
 }
-h2 {
+.run-animation {
     font-size: 45px;
     font-family: 'Alegreya SC', serif;
     text-align: center;
     color: rgb(180, 12, 12);
     font-style: oblique;
-    margin-top: -30px
-    
+    margin-top: -30px;
+    animation-duration: 6s;
+    animation-name: slidein;  
+    /* animation-name: slidein;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out; */
+    /* animation-delay: .5s;          */
 }
+ @keyframes slidein{
+    from {
+        margin-left: -200%; 
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+} 
+
+/* @keyframes slidein {
+    0% {
+      left: 0;
+      top: 0;
+    }
+    50% {
+      left: 244px;
+      top: 100px;
+    }
+    100% {
+      left: 488px;
+      top: 0;
+    }
+  } */
+  
+  
+  
+
+
 .top-nav{
     background-color: white;
     overflow: hidden;
