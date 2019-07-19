@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: rgb(135, 230, 26)
+}
+#imageMario{
+    margin-bottom: 170px;
+}
+#pTotal {
+    color: #c70ac7;
+    font-size: 100px;
+    width: 182px;
+    height: 200px;
+    position: relative;
+    left: 670px;
+    top: 100px;
+    /* border: solid maroon; */
+}
+
+/* .total {
+    width: 182px;
+    height: auto;
+    position: relative;
+} */
+
+#header {
+    font-size: 80px;
+    text-align: center;
+    color: rgb(128, 3, 149);
+    /* width: 800px; */
+    width: 100%;
+    height: auto;
+}
+
+#header>h1 {
+    font-size: 90px;
+    text-align: center;
+    width: 100vw;
+}
+
+#Goomba-image{
+    text-align: left;
+
+}
+#Bowser-image{
+    text-align: center;
+    margin-top: 363px;
+    position: relative;
+    right: 35px; 
+} 
+
+#Spiny-image{
+     text-align: right
+}
+
+form {
+    /* margin-top: -694px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#images {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+button{
+    position: relative;
+    height: 25px;
+    width: 70px;
+    left: -200px;
+}
+/* button {
+    position: absolute;
+     width: 11%;
+     margin-left: 600px; 
+    margin-bottom: 258px; 
+    position: relative; 
+    top: 200px;  
+    left: 250px;  
+}  */
+
+#imageMario {
+    width: 100vw;
+    align-items: center;
+    height: auto;
+}
+
+.newMario {
+    width: 85%;
+    height: 275px;
+    background-size: cover;
+    margin-left: 6%;
+}
+
+#footer {
+    margin-left: 300px;
+    
+}
+
+.container {
+    margin: 0px;
+}
+.baddies{
+    margin-bottom: 510px;
+}
+@media screen and (min-width: 800px){
+        button{
+            margin-left: 405px;
+        }
+}
+ /* @media screen and (min-width: 800px) and (max-width: 1200px){
+    button {
+    
+        /* width: 11%;
+        margin-left: 494px; */
+        /* margin-bottom: 258: 
+        position: relative; 
+        top: 730px; 
+    }
+} */
