@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form name = "submitMe">
+            firstName: <input type="text"   name = "firstName"/>
+            lastName:  <input type="text"   name ="lastName">
+            Age:       <input type="Number" name="age">
+            Race:      <input type="text"   name="race">
+            Male:      <input type="radio"  name="gender" value ="male">
+            Female:    <input type="radio"  name="gender" value="female">
+            Email:     <input type="email"  name="email">
+            Phone:     <input type="tel"    name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">  
+
+            <button>submit</button>
+            <!-- the button knows that it belongs to this form because it's nested in it. 
+            A single button in a form will defualt to a submit button and will trigger a submit event -->
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
