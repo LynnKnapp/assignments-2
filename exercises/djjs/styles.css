@@ -53,13 +53,13 @@
     width: 300px;
     background-color: rgb(120, 65, 216);
     border: solid rgb(53, 50, 50)8px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 #four:hover{
 
-    transition-property: box-shadow;
+    transition-property: box-shadow, ;
     transition-duration: 500ms;
-    box-shadow: 30px 30px rgb(80, 49, 133) ;
+    box-shadow: 50px 50px rgb(161, 38, 172) ;
 
 }
 #five{
@@ -67,7 +67,8 @@
     width: 300px;
     background-color: #16E94C;
     border: solid rgb(53, 50, 50) 8px;
-
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
 }
 #five:hover{
     height: 400px;
@@ -75,7 +76,10 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7bg56L3OMc5DNbIusQGbYavUV01KwUmPVuTOgZGZuMg3hnEZkiQ");
     background-size: cover;
     border-radius: 60%;
-    transition-property: background-image, border-radius, height, width, transform-box;
+    transition-property: background-image, border-radius, height, width, transform-box transform;
+    transform: rotateX(360deg);
+    font-size: 40px;
+    text-align: center;
 
 }
 #six{
@@ -94,11 +98,11 @@
     border-radius:  30px;
     font-size: 50px;
     text-align: center;
-    transition-property: border-radius, font-size,text-align;
-    transition-duration: 600ms;
+    /* transition-property: border-radius, font-size,text-align;
+    transition-duration: 600ms; */
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNGIWD7Q0rKlnYiGZjb_X34n9o-USCI7vOTaCYLXQvkjAc6Ys36g");
     background-size: cover;
     -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+          transform: rotateY(360deg);
     }
 
