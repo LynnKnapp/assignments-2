@@ -126,61 +126,6 @@ body {
     color: azure;
     font-family: 'Courgette', cursive;
 }  
-
-
-/* #sleep{
-    height: auto;
-    width:  50%;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 244px;
-}
-#sleep > a {
-    color: whitesmoke; 
-     text-decoration: none;
-}     */
-/* #heather > a {
-    color: whitesmoke;
-    text-decoration: none;   
-}
-#heather{
-    height: auto;
-    width: 50%;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    margin-right: 300px;
-    padding-left: 700px;
-} */
-
-/* #Oily{
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-} */
-
- /* #oildrop{ */
-    /* background-image: url('https://png2.kisspng.com/sh/c9db7687a5df8249b793e07b6032e2f0/L0KzQYm3U8A6N5d7j5H0aYP2gLBuTfRzd6EyjtdsdHX4gn7oTfRzd6Eyh9g2ZYP2dbB7ifFtNZDuhJ8AYXG1RLeBg8FnbpM8SJCAM0G3QIm3U8E2OmE6UKgBM0a0Q4K1kP5o/kisspng-drop-vecteur-a-drop-of-essential-oil-5aa24f8c1ffb70.531408031520586636131.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; */
-    /* grid-column:  */
-/* }   */
-
- 
- /* #twentySec{
-    font-size: 30px;
-    color:whitesmoke; 
-    text-align: center;
-    
-  } */
-   /* #twoMinutes{
-      font-size: 30px;
-      color: whitesmoke;
-      text-align: right; 
-  }  */
   @media screen and (max-width:760px) {
       #header{
           margin-top: 40px;
