@@ -50,10 +50,17 @@
 //             => people.friendly
 //         )
 //     }
-    function doMathSum(a, b) => {
+    const doMathSum = (a, b) => {
         return a + b
     }
     
-    const produceProduct = (a, b)=> {
+   const produceProduct =(a, b) => {
         return a * b
-    }    
+    } 
+    let firstName ="Jane"
+    let lastName ="Doe"
+    let age = 100
+     const printString =(firstName, lastName, age) => {
+        return firstName +lastName + age
+     }   
+     console.log(printString(firstName,lastName,age))

@@ -80,9 +80,7 @@ while (isAlive && !gameOver) {
         }else if (question === "y") {
             walk()
             
-        }
-        // jerkStoreAppears()
-        
+        }     
 }    
 
     
