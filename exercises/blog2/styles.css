@@ -12,14 +12,11 @@
     text-align: center;
     color: rgb(180, 12, 12);
     font-style: oblique;
-    margin-top: -30px;
-    animation-duration: 6s;
-    animation-name: slidein; 
-     
-    /* animation-name: slidein;
+    margin-top: -30px; 
+    animation-name: slidein;
     animation-duration: 8s;
-    animation-timing-function: ease-in-out; */
-    /* animation-delay: .5s;          */
+    animation-timing-function: ease-in-out; 
+    animation-delay: .5s;         
 }
  @keyframes slidein{
     from {

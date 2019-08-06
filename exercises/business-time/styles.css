@@ -70,13 +70,13 @@ body {
     font-size: 23px;
     color: rgb(250, 163, 221);
     
-    animation: example 1.5s slide-in infinite;
+    animation: slidein 1.5s ease-in-out infinite;
     /* animation-duration: 5 sec;
     animation-name: slide-in;
     animation-delay: .3s;  */
 } 
 
- @keyframes example{
+ @keyframes slidein{
     0% {
         position: relative;
         left: -200px; 
