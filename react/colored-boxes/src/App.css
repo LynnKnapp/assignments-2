@@ -1,0 +1,49 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+ 
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+ 
+}
+.box4{
+ 
+    width: 200px;
+    height: 200px;
+    background-color: rgb(59, 151, 120);
+ 
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(95, 170, 60);
+ 
+}
+.box6{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 19, 128);
+ 
+}
+.box7{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(128, 0, 122);
+ 
+}
+.box8{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 128, 111);
+ 
+}
