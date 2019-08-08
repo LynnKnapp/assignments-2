@@ -10,4 +10,8 @@ const Spot = (props) =>{
     )    
 }
 
+class Spot extends React.Component{
+    constructor
+}
+
 export default Spot
