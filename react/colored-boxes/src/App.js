@@ -3,7 +3,7 @@ import Box from "./Box"
 import "./App.css"
 
 
-const App =(props)=>{
+const App = (props)=>{
     console.log(props)
     return(
         <div className= "boxContainer">
