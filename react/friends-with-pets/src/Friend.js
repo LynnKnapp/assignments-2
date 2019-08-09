@@ -5,7 +5,7 @@ const Friend = (props) => {
         return(
             <div>
                 <p>Pet Name: {pet.name} </p> 
-                <p>Pet Breed {pet.breed}</p>
+                <p>Pet Breed {pet.breed}</p>cd
             </div>
         )  
     })
