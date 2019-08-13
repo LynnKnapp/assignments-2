@@ -16,13 +16,15 @@ class App extends React.Component{
             firstName: '',
             lastName: '',
             names: []
+            
 
         }
     }
     //handleChange happens every time a letter is typed in, it is called in the onChange 
-    handleChange =(event) => {
+    handleChange =(e) => {
+        
         this.setState({
-            [event.target.name]: event.target.value
+            [e.target.name]: e.target.value
         })
     }
     handleSubmit = (event) =>{

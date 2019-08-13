@@ -1,0 +1,42 @@
+*{
+   margin: 0 
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://media.giphy.com/media/WuddXZYu9bXJS/giphy.gif');
+    background-size: cover;
+}
+
+.about{
+
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+}
+.services{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+nav{
+    background-color: bisque;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+footer{
+    height: 100px;
+    width: 100vw;
+    background-color: yellowgreen;
+    font-size: 20px;
+    display:  flex;
+    justify-content: space-evenly;
+}

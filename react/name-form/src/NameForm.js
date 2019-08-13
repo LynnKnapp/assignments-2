@@ -14,8 +14,7 @@ const NameForm = (props) =>{
                         name = 'lastName'
                         value = {lastName}
                         onChange ={handleChange}
-                        placeholder = 'Last Name'/>
-
+                        placeholder = 'Last Name'/>    
                         <button>Submit</button>
                 </form>
 
