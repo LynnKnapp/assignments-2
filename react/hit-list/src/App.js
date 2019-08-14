@@ -1,5 +1,8 @@
 import React,{Component} from 'react'
 import axios from 'axios'
+import Person from './Person.js'
+import './styles.css'
+
 
 
 //Mount: -is when its birthed
@@ -17,17 +20,44 @@ import axios from 'axios'
 class App extends Component{
     constructor(){
         super()
-        this.state = {}
+        this.state = {
+            characters:[]
+        }
     }
 //component already exists so don't need fat arrow function
     componentDidMount(){
-        console.log("I'm loaded")
-
+        axios.get('https://s3.amazonaws.com/v-school/data/hitlist.json')
+               .then(response => {
+                   this.setState({
+                       characters: response.data
+                   })
+               })
+               .catch(err => console.log(err))
+                    
+               
     }
     render(){
+        const mappedCharacters = this.state.characters.map(character =>{
+            return(
+                <div className ="individual"
+                 style = {{backgroundImage: `url(${character.image})`, height: 300, width: 200}}
+                 key = {character.id}>
+                   <h1>{character.name}</h1>
+                </div> 
+                /* <{character.name} */
+                    /* image = {character.image} */
+                    
+            )
+        })
         return(
-            <div>
-
+            <div className = 'main-div'>
+                <div className = 'banner'>
+                    <img src = 'https://swh-826d.kxcdn.com/wp-content/uploads/2012/05/Michael-Corleone-1.jpg'/>
+                    <h1>Don Corleone's Hitlist</h1>
+                </div>
+                <div className = 'images'>
+                    {mappedCharacters}  
+                </div> 
             </div>
         )
     }
