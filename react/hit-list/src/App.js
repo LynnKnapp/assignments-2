@@ -39,13 +39,12 @@ class App extends Component{
     render(){
         const mappedCharacters = this.state.characters.map(character =>{
             return(
-                <div className ="individual"
-                 style = {{backgroundImage: `url(${character.image})`, height: 300, width: 200}}
-                 key = {character.id}>
-                   <h1>{character.name}</h1>
+                <div>
+                    <Person style = {{backgroundImage: `url(${character.image})`, height: 300, width: 200}}
+                 key = {character.id}> <h1>{character.name}</h1>
+                 </Person>
                 </div> 
-                /* <{character.name} */
-                    /* image = {character.image} */
+                
                     
             )
         })
