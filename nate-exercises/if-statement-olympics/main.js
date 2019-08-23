@@ -42,13 +42,13 @@ var person = {
 //     console.log("false")
 // }
 
-// const dog ="fluffy"
+const dog ="fluffy"
 
-// if ( typeof dog === "string" ){
-//     console.log("it's a string")
-// }else{
-//     console.log("not a string")
-// }
+if ( typeof dog === "string" ){
+    console.log("it's a string")
+}else{
+    console.log("not a string")
+}
 
 // const isTrue = true
 

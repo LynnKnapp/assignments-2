@@ -1,5 +1,5 @@
 import React from "react"
-// import './App.css'
+
 
 const Box = (props) =>{
     console.log(props)
@@ -12,4 +12,6 @@ const Box = (props) =>{
     )    
 }
 export default Box 
+
+
 

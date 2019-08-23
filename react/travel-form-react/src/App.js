@@ -9,15 +9,15 @@ class App extends React.Component{
             lastName: '',
             age: 0,
             gender: '',
-            destination: '',
+            destination: [],
             dietRestrictions: [] 
         }
     }
     handleChange(e){
-        const {name,value, type, checked, } = e.target
+        const {name, value, type, checked, } = e.target
         this.setState({
             [e.target.value]: e.target.value
-            // [name]: value
+            
             
         })
     }
