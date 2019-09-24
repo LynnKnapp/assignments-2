@@ -21,13 +21,18 @@ class App extends React.Component{
             
         })
     }
+    handleSubmit(event){
+        event.preventDefault()
+        
+        this.setState(prevState)
+    }
     
 
     render(){
         return(
             <div>
                 <main>
-                    <form>
+                    <form onSubmit = {this.handleSubmit}>
                             <input 
                             name = 'First Name' 
                             value ={this.setState.firstName} 

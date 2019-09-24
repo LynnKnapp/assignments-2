@@ -5,7 +5,7 @@ import Services from './Services'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import './styles.css'
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, withRouter} from 'react-router-dom'
 
 //Browser Router => teaches your about to be a SPA-(single page application)
 //Switch allows to load a specific component
@@ -24,6 +24,8 @@ const App = () =>{
         <div>
             <Navbar/>
             <Switch>
+            //<Route path is a prop//
+            exact path 
                 <Route exact path = '/' component = {Home}/>
                 <Route path = '/about' component = {About}/>
                 <Route path = '/contact' component = {Services}/>
@@ -34,4 +36,4 @@ const App = () =>{
     )
 }
 
-export default App
+export default withRouter(App)

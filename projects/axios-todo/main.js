@@ -58,6 +58,7 @@ function listToDos(todos, update) {
         if (todo.completed) {
             checkbox.checked = true
             title.style.textDecoration = "line-through"
+            editToDo(id ,{completed: true})
         } else {
             title.style.textDecoration = "none"
         }
@@ -111,6 +112,12 @@ const postToDo = (newTodo) => {
         listToDos([response.data])
     })
 }
+
+function editToDo(id,objectToDo){
+    axios.put('url' + id, objecttoedit)
+}
+editToDo(id, {completed: true})
+
 
 // console.log(clickCheck)
     // function clickCheck() {    

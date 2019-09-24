@@ -1,0 +1,130 @@
+body{
+    background-image: url('https://wallpapercave.com/wp/dYhlSep.jpg');
+    background-size: cover;
+    height: auto;
+    width: 100vw;
+
+}
+.header {
+    background-color: white;
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 986px;
+    background-position-y: -303px;
+    background-position-x: center;
+    background-image: url(https://ih0.redbubble.net/image.128159340.7074/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.u2.jpg);
+    /* background-position: center; */
+}
+#container{
+    height:75vh;
+    display:grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+        's s s s s s'
+        'b b b b b b'
+        'g g g g g g'
+}
+
+.goomba{
+    grid-area: g;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+.goomba-img{
+    position: relative;
+    left:-550px;
+    bottom: 21px;
+    background-image: url('Goomba.png');
+    /* background-color: red; */
+    height: 125px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.goomba-input {
+    position: relative;
+    text-align: center;
+    left: -555px;
+    top: -16px;
+}
+/* input{
+    border: 1px solid black;
+    border-radius: 15px;
+}     */
+
+.bowser{
+    grid-area: b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bowser-img{
+    position: relative;
+    background-image:url('https://upload.wikimedia.org/wikipedia/en/thumb/1/11/BowserNSMBUD.png/220px-BowserNSMBUD.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:140px;
+    width:130px;
+    left: 150px;
+    bottom: -65px;
+}
+.bowser-input {
+    position: relative;
+    text-align: center;
+    bottom: -54px;
+    left: 145px;
+}
+.spiny{
+    grid-area: s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.spiny-img {
+    position: relative;
+    background-image: url(https://www.mariowiki.com/images/3/3e/Spiny_Artwork_-_New_Super_Mario_Bros._2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    width: 135px;
+    left: 45%;
+    bottom: -45px;
+
+}
+
+
+.spiny-input {
+    position: relative;
+    text-align: center;
+    left: 45%;
+    top: 46px;
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    
+    font-family: 'Lobster Two', cursive;
+    padding: -200px;
+    color: white;
+
+}
+.footer p{
+    font-size: 20px;
+    padding: 35px;
+}
+button{
+    /* border: solid black 3px;
+    border-radius: 40%; */
+    height: 25px;
+    width: 100px;
+    margin-left: 645px;
+
+}

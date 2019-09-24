@@ -1,0 +1,210 @@
+body{
+    flex-direction: row; 
+    background-image: linear-gradient(to right top, #830d50, #95276a, #a63d85, #b552a2, #c368bf, #c169c6, #bf6ace, #bc6cd6, #aa58c9, #9844bd, #862fb0, #7317a4);
+    /* border: solid 100px black; */
+    margin-left: 75px;
+    
+}
+#singles{
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px ;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 30px;
+     
+      
+}
+#header{
+    font-size: 70px;
+    text-align: center;
+    margin-right: 80px;
+    color: rgb(86, 2, 107);
+    text-shadow: -7px 4px 1px #c169c6,;
+}
+
+#oils{
+    font-size: 50px;
+    text-align: center;
+}
+.topnav{
+    grid-row: 3/4;
+    grid-column: 1/9;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    margin-top: -27px;
+    
+
+ }
+ .active{
+    color: rgb(201, 200, 243);
+    text-decoration: none;
+ }
+ .active:hover{
+    font-size: 40px;
+    color: white;
+ }
+ /* #one{
+    display: flex;
+    
+ }     */
+#lavender{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+}
+
+#lemon{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+}
+
+#frank {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 20px;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+    text-align: center;
+}
+#peppermint{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    font-size: 20px;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+    text-align: center;
+} 
+#vetiver{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 20px;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+    text-align: center;
+} 
+#sage{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 20px;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+    text-align: center;
+}
+#lemongrass{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    font-size: 20px;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+    text-align: center;
+}
+#tea-tree{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+    text-align: center;
+}
+#ylang{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+    text-align: center;
+}    
+#orange{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+    text-align: center;
+}
+#patch{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+    text-align: center;
+}
+#jasmine{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    color: white;
+    text-shadow: 4px -1px 0px #1f011f;
+    text-align: center;
+}
+@media screen and (max-width:900px){
+    #singles{
+        /* margin-top: 100px;
+        width: 100%;
+        display: grid; */
+        
+        /* grid-template-columns: 300px ;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+        grid-gap: 20px; */
+
+        display: flex;
+        flex-direction: column;
+         
+          
+    }
+
+     #lavender{
+        
+        height: 50%;
+        width: 50%;
+        
+    }
+    
+    #lemon{
+        grid-row: 2/3;
+    }
+    
+    #frank {
+        grid-row: 3/4;
+    
+    }
+    #peppermint{
+        grid-row: 4/5;
+        
+    } 
+    #vetiver{
+        grid-row: 5/6;
+    } 
+    #sage{
+        grid-row: 6/7;
+    }
+    #lemongrass{
+        grid-row: 7/8;
+    }
+    #tea-tree{
+        grid-row: 8/9;
+    }
+    #ylang{
+        grid-row: 9/10;
+    
+    }    
+    #orange{
+        grid-row: 10/11;  
+    }
+    #patch{
+        grid-row: 11/12;
+    }
+    #jasmine{
+        grid-row: 12/13;
+    }
+
+
+}

@@ -6,11 +6,10 @@ console.log("Hello " + player + ".")
 let gameOver = false
 let options =["put hand in the hole", "find the key", "open the door"]
 let foundkey = false
-let open =false
 
 
 while(!gameOver){
-    let personAnswer = readline.keyInSelect(options,"What are you going to do?")
+    let personAnswer = readline.keyInSelect( options,"What are you going to do?")
     if (personAnswer === 0){ 
         console.log("You were supposed to have found the key first.  You just died")
         gameOver = true

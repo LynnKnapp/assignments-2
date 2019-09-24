@@ -1,0 +1,171 @@
+.header > h1{
+    font-size: 100px;
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    color: rgb(180, 12, 12);
+    font-style: oblique;
+    margin-bottom: -62px;
+    font-style: italic;
+}
+#title{
+    animation-name: title;
+    animation-direction: reverse;
+    animation-duration: 6s;
+    animation-timing-function: ease-out; 
+}
+@keyframes title{
+    from{
+        margin-right: 0%;
+        width: 100%
+    }
+    to{
+        margin-right: 300%;
+        width: 300%;
+    }
+
+
+}
+.run-animation {
+    font-size: 39px;
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+    color: rgb(180, 12, 12);
+    font-style: oblique;
+    margin-top: 40px; 
+    animation-name: slidein;
+    animation-duration: 6s;
+    animation-timing-function: ease-out; 
+    animation-delay: .3s;         
+}
+ @keyframes slidein{
+    from {
+        margin-left: -200%; 
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+} 
+.side-bar{
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s
+
+}
+.side-bar > a{
+    padding: 20px 20px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+
+}
+.side-bar >a:hover{
+    color: #f1f1f1;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+.hideous{
+    border: dotted rgb(8, 8, 75);
+    width: 70%;
+    height: 800px;
+     margin-top: 30px;
+    margin-left: 220px; 
+} 
+.hideous > img {
+    display: block;
+    float: left;
+    margin: 40px;
+
+}
+.hideous > h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.hideous >h2{
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    color: black;
+}
+.hideous >p{
+    font-size: 25px;
+}
+.sanity > img {
+    display: block;
+    float: left;
+    margin: 40px;
+}
+.sanity > h1{
+    text-align: center;
+    font-size: 40px;
+}
+.sanity{
+    border: dotted rgb(8, 8, 75);
+    width: 70%;
+    margin-top: 1px;
+    margin-left: 220px;
+}
+.sanity >h2{
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    color: black;
+}
+.sanity >p{
+    font-size: 25px;
+
+}
+.sanity > img {
+    display: block;
+    float: left;
+    margin: 40px;
+}
+.george > h1{
+    text-align: center;
+    font-size: 40px;
+}
+.george > img {
+    display: block;
+    float: left;
+    margin: 40px;
+}
+.george{
+    border: dotted rgb(8, 8, 75);
+    width: 70%;
+    margin-top: 0px;
+    margin-left: 220px;
+}
+.george >h2{
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    color: black;
+}
+.george >p{
+    font-size: 25px;
+}

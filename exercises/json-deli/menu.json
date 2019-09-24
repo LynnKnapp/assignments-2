@@ -26,7 +26,7 @@
             "ingredients": ["bacon", "lettuce", "tomatoe", "mayo"],
             "description": "oh so good, a pure classic" 
         },{
-            "name": "Hot Beef Dog",
+            "name": "The Constructor Dog",
             "ingredients": ["hotdog", "bun","assorted condiments"],
             "description": ["the best ever choice where you get to choose your dot length"]
         }],
@@ -45,7 +45,7 @@
             "description": "it's real and it's spectacular"
         },{
             "name": "Debugging with Donuts",
-            "ingredients": ["flour", "sugar", "flavoring", "more sugar"],
+            "ingredients": ["flour", "sugar", "flavoring", "fat", "more sugar"],
             "description": ["the only way to debug is covered in donut crumbs"]
         }] 
     

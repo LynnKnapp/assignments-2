@@ -29,10 +29,9 @@ class Player{
     //   console.log(this.status)
   } 
 }  
+
 const mario1 = new Player("Mario", 0, "alive", true)
 console.log(mario1)
-mario1.setName("Luigi")
-console.log(mario1)
-const status = new Player("Luigi", 0, "alive", true)
+const luigi = new Player("Luigi", 0, "alive", true)
 status.gotPowerUp("big")
 console.log(status)

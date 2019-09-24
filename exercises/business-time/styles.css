@@ -9,7 +9,7 @@ body {
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(9,auto); 
-    background-image: url("https://media2.giphy.com/media/oNb3GLUvhF768/giphy.gif"); 
+    background-image: url("https://media.giphy.com/media/3ohzAN9PzGgxpQaiM8/giphy.gif"); 
     background-size: cover;  
 }
 
@@ -20,11 +20,15 @@ body {
      grid-column: 1/9;
      grid-row: 1/3;
     text-align: center;
-    font-size: 42px;
-    color: rgb(231, 58, 231);
+    font-size: 50px;
+    color: rgb(231, 13, 18);
     height: 148px;
     font-family: 'Lily Script One', cursive;
-}
+    text-shadow: -3px -9px 30px pink;
+    
+     
+}        
+
 
 .topnav{
     grid-row: 3/4;
@@ -35,8 +39,15 @@ body {
     flex-direction: row;
     font-size: 25px;
     align-items: center;
-    color: rgb(124, 191, 207);
+    /* color: rgb(160, 159, 221); */
 
+ }
+ .active{
+    color: rgb(160, 159, 221);
+ }
+ .active:hover{
+    font-size: 40px;
+    color: white;
  }
 
 .topnav a{
@@ -50,73 +61,102 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgb(40, 201, 250);
+    /* color:rgb(255, 255, 0); */
+    color: yellow;
+    opacity: .70;
     height: 247px;
+    margin-top: 90px;
 }
+h2{
+    text-shadow: 4px 3px 6px black;
+}
+#rocket{
+    font-size: 45px;
+    color: silver;
+    font-family: 'Courgette';
+    animation-name: slideout;
+    animation-duration: 4s;
+} 
+@keyframes slideout{
+    0% {
+        position: relative;
+        left: 0%; 
+        font-size: 23px;
+    }
+    10% {
+        position: relative;
+        font-size: 60px;
+        bottom: 0px;
+        font-family: 'Faster One', cursive;
+        
+    }
+    15%{
+        position: relative;
+        font-size: 90px;
+    }
+    20%{
+        position: relative;
+        font-size: 110px;
+    }
+    25%{
+        position: relative;
+        font-size: 130px
+    }
+    100% {
+        position: relative;
+        left: 300%; 
+        font-size: 150px;
+    }
+}
+/* @keyframes slideout{
+    0% {
+        position: relative;
+        bottom: 0px; 
+        font-size: 23px;
+    }
+
+    100%{
+        position: relative;
+        font-size: 90px;
+        bottom: 300%;
+        
+    } */
+
   h2{
    text-align: center;
    font-size: 30px;
    font-family: 'Lobster', cursive;
   }
   .plant{
-      color: #a0cf31;
+      font-size: 38px;
   }
 
  .twentySec{
     grid-row: 6/7;
     grid-column: 1/4;
     margin-left: 20px;
-
+    margin-top: 200px;
     font-size: 23px;
-    color: rgb(250, 163, 221);
-    
-    animation: slidein 1.5s ease-in-out infinite;
-    /* animation-duration: 5 sec;
-    animation-name: slide-in;
-    animation-delay: .3s;  */
+    color: rgb(231, 13, 18);
 } 
-
- @keyframes slidein{
-    0% {
-        position: relative;
-        left: -200px; 
-        font-size: 23px;
-    }
-    100%{
-        position: relative;
-        font-size: 30px;
-        left: 0px;
+.twentySec > h3{
+    text-shadow: 
+    
+        4px 3px 6px black;
         
-    }
- }
-#image{
-    grid-row: 8/9;
-    grid-column: 4/6;
-    background-image: url("Screen\ Shot\ 2019-07-19\ at\ 8.55.57\ PM.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    width:  200px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(3, 46, 3);
-    border-radius: 70%;
-    background-position-y: 106%;
+}        
 
-
-
-}
 
 #twoMinutes{
     grid-row: 9/10;
-    grid-column: 6/9;
-    
+    grid-column: 6/9;   
 }
+
  h4{
     font-size: 28px;
-    color: rgb(250, 163, 221);
+    color: rgb(231, 13, 18);
     text-align: center;
-    
+    text-shadow: 4px 3px 6px black;    
 }   
 
 

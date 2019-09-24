@@ -1,56 +1,49 @@
 #container{
-  align-content: center;
   display: flex;
+  align-content: center;
   flex-direction: column;
-  /* display: grid;
-  grid-template-columns: repeat(8,1fr);
-  grid-template-rows: repeat(8,auto); */
-  background-image: linear-gradient( #c7dfe5, #bad9e6, #aed3e7, #a5cde9, #a0c5eb, #9abde9, #96b5e8, #93ade5, #8ba4e0, #fefeff, #7c91d5, #7587cf);
+  background-image: linear-gradient(to right top, #d50f80, #d93295, #dc49aa, #dd5dbd, #dd6fd0, #db73d9, #d877e2, #d47beb, #cc73ee, #c46cf2, #ba65f7, #ae5ffb);
   background-size: cover; 
   width: 100%;
+  justify-content: center;
+  text-align: center;
 }
 
 #test >h1 {
   align-self: center;
-  /* grid-column: 1/9;
-  grid-row: 1/2; */
   font-family: 'Monoton', cursive;
-  font-size: 65px;
+  font-size: 80px;
   text-align: center;
   color: rgb(158, 16, 158)
 }
-
-
-
-#bacon { 
-  /* align-self: center; */
-  align-content: center;
-  height: auto;
-  width: 70%; ;
-  margin-top: 38px;
-  /* margin-left: 23%; */
-  margin-bottom: -52px;
-  /* grid-row: 3/4;
-  grid-column: 3/6;  
-    */
-
+.topnav{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 25px;
+  align-items: center;
+  margin-bottom: 30px;
   
+
 }
+.active{
+  color: whitesmoke;
+  text-decoration: none;
+} 
+
 #bacon >img{
-  align-self: center;
+  margin-top:20px;
   border-radius: 10%; 
-  justify-self: center;
-  /* display: block; */
-    margin-left: 53%;
-    height: auto;
-    width: 35%; 
-    border: solid rgb(100, 100, 138) 5px; 
+  width: 400px;
+  height: 300px;
+  margin-top: 38px;  
+  border: solid rgb(100, 100, 138) 5px; 
 
 
 }
 #sleepTest > p{
-  
-  
+ 
   font-size: 28px;
   margin-top: 200px; 
   text-align: left;
@@ -58,11 +51,12 @@
   margin-right: 80px; 
   font-family: 'Gothic A1', sans-serif;
   font-weight: 800;
+  color: white;
   
 
 } 
 .young{
-  color: rgb(153, 13, 218);
+  color: rgb(116, 8, 167);
   font-size: 32px;
   font-weight: extra-bold;
 
@@ -75,21 +69,21 @@
   margin-right: 80px; 
   font-family: 'Gothic A1', sans-serif;
   font-weight: 800; 
+  color: white;
 
 }  
-#last{
-    margin-left: 9x;
+#last > img{
     margin-top: 100px;
     margin-bottom: 50px;
     align-self: center;
+    width: 430px;
+    height: 330px; 
+    border: solid black 2px;
+    border-radius: 10%;
 
 } 
-#last >img{
-  /* margin-left: 17%; */
 
-}
-
-@media screen and (max-width: 611px)  {
+@media screen and (min-width: 500px) and(max-width: 768px)  {
     
     #last{
         
@@ -98,9 +92,18 @@
     #test >h1{
         font-size: 48px;
     }
-    #bacon > img {
-      width: 28%;
+    #bacon{
+      width: 100%;
     }
+    #bacon > img {
+      width: 34%;
+    }
+    #last >img{
+      border-radius: 10%;
+      width: 50%
+    
+    }
+
     
     
     

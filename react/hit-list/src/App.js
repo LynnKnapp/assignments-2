@@ -37,13 +37,12 @@ class App extends Component{
                
     }
     render(){
-        const mappedCharacters = this.state.characters.map(character =>{
+        console.log(this.state.characters)
+        const mappedCharacters = this.state.characters.map((character,id )=>{
             return(
-                <div>
-                    <Person style = {{backgroundImage: `url(${character.image})`, height: 300, width: 200}}
-                 key = {character.id}> <h1>{character.name}</h1>
-                 </Person>
-                </div> 
+            
+                    <Person image = {character.image}
+                 key = {character.id} name ={character.name} age ={character.age}/>
                 
                     
             )
@@ -51,10 +50,10 @@ class App extends Component{
         return(
             <div className = 'main-div'>
                 <div className = 'banner'>
-                    <img src = 'https://swh-826d.kxcdn.com/wp-content/uploads/2012/05/Michael-Corleone-1.jpg'/>
+                    <img src = {'https://swh-826d.kxcdn.com/wp-content/uploads/2012/05/Michael-Corleone-1.jpg'} alt=''/>
                     <h1>Don Corleone's Hitlist</h1>
                 </div>
-                <div className = 'images'>
+                <div className = 'character-list'>
                     {mappedCharacters}  
                 </div> 
             </div>

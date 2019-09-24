@@ -48,7 +48,7 @@ function caps(str){
 
     return hoochiArr[0].toUpperCase() + arr[0].slice(1) + ' ' +mammaArr[0].toUpperCase() + arr[1].slice(1)
 }
-console.log(caps("hoochi mamaaaa!"))
+console.log(caps("the greatest function in the world"))
 
 // let splitStr = str.split(' ')
 //    let result = ''

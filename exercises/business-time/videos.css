@@ -1,4 +1,90 @@
 
+#video{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 315px 315px 315px;
+    grid-gap: 50px;
+
+}
+.active:hover{
+    font-size: 40px;
+    color: white;
+ }
+body{
+    background-image: url("https://images.unsplash.com/photo-1558470622-bd37a3c489e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+
+}
+
+#header{
+    margin-top: -55px;
+    font-size: 40px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    color: rgb(109, 170, 194);
+    background-color: rgb(5, 24, 39); 
+}
+.topnav{
+    grid-row: 3/4;
+    grid-column: 1/9;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+ }
+ .active{
+    color: rgb(160, 159, 221);
+    text-decoration: none;
+ }
+iframe{
+    border: solid black 10px;
+}
+#oil-start{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+#one{
+    height: 315px;
+    width: 400px;
+}
+#two{
+    height: 315px;
+    width: 400px;
+}
+#three{
+    height: 315px;
+    width: 400px;
+}
+
+#ten-reasons{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#four{
+    height: 315px;
+    width: 400px;
+}
+#brand-comp{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+#emotion{
+    grid-column: 2/3;
+    grid-row: 4/5;
+} 
+#tips{
+    grid-column: 1/2;
+    grid-row: 5/6;
+
+}
+
 #container{
     display: flex;
     flex-direction: column;
@@ -56,18 +142,61 @@ span{
 
 
 
-@media only screen and (min-width: 600px) and (max-width:768px){
-    #container{
+@media screen and (min-width: 500px) and(max-width: 768px){
+    #video{
         display: flex;
         flex-direction: column;
-        align-content: center;
-        margin-left: 10px;
-        margin-right: 0px;
-        width: 100vw;
+        width: 100%;
+        /* display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 315px 5px 5px 5px 315px ; */
     }
-    #oily101{
-        width: auto;
-    }
+    /* #oil-start{
+        grid-row: 1/2;
+    
+    } */
+    /* #one{
+        grid-row: 2/3;
+        
+    } */
+    /* #two{
+        grid-row: 3/4;
+        
+    } */
+    /* #three{
+        grid-row: 4/5;
+    } */
+    /* #ten-reasons{
+        grid-row: 5/6;
+    } */
+    /* #four{
+        grid-row: 5/6;
+    }  */
+    /* #five{
+        height: 10px;
+        width: 400px;
+        grid-row: 5/6;
+    } */
+    /* #six{
+        grid-row: 6/7;
+        height: 10px;
+        width: 400px;
+    } */
+
+    
+    /* #ten-reasons{
+        grid-row: 7/8;
+    } */
+    /* #brand-comp{
+        grid-row: 3/4;
+    } */
+    /* #emotion{
+        grid-row: 4/5;
+    }  */
+    /* #tips{
+        grid-row: 5/6;
+    
+    } */
 } 
   
   
@@ -79,62 +208,4 @@ span{
   
   
   
-  /* #container {
-      margin-left: 0px;
-      display: grid;
-      height: auto;
-      width: 100%;
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: repeat(3, auto);
-      margin-right: 0px;
-      overflow: hidden;
-
-  }
-
-  #header {
-      font-size: 40px;
-      text-align: center;
-      height: 100px;
-      width: 100%;
-      color: rgb(109, 170, 194);
-      background-color: rgb(5, 24, 39);
-      margin-top: -40px;
-      margin-bottom: 112px;
-
-
-  }
-
-  h1 {
-      padding: 7px 0 0 0;
-  } */ 
-
-  /* body {
-      background-image: url("https://images.unsplash.com/photo-1558470622-bd37a3c489e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-
-  }
-
-  #oilStart>h1,
-  #tenReasons>h1,
-  #brandComp>h1 {
-      display: flex;
-      grid-column: 1/-1;
-      justify-self: center;
-      margin-right: 100px;
-      font-size: 25px;
-      color: aliceblue;
-      text-align: center;
-      width: 100%;
-  }
-
-  .tips,
-  .ten,
-  .comp {
-      border: solid whitesmoke 10px;
-      ;
-  }
-
-  @media only screen and (min-width: 600px) {
-    
-    
-  }
+  

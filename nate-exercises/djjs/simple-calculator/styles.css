@@ -1,0 +1,104 @@
+.calc{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 126px; 
+    color: white;
+
+}
+
+.math{
+    height: 700px;
+    width: 400px;
+    background-color: rgb(43, 138, 160);
+    margin-left: 200px;
+    border: solid black;    
+}
+.add > h1{
+    text-align: center;
+}
+.addcenter{
+    margin-left: 86px; 
+}
+#add1{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: solid black 1px; 
+    font-size: 25px;
+    text-align: center;
+}
+#add2{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke; 
+    border: solid black 1px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.subtract> h1{
+    text-align: center;
+    margin-left: px;
+}
+.subcenter{
+    margin-left: 86px;
+}
+#sub1{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke; 
+    border: solid black 1px;
+    font-size: 25px;
+    text-align: center;
+
+}
+#sub2{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke; 
+    border: solid black 1px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.multiply > h1{
+    text-align: center;
+    margin-left: px;
+}.multcenter{
+    margin-left: 86px;
+}
+
+#mult1{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke; 
+    border: solid black 1px;
+    font-size: 25px;
+    text-align: center;
+
+}
+#mult2{
+    width: 220px;
+    height: 30px;
+    background-color: whitesmoke; 
+    border: solid black 1px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.add > button, .subtract > button, .multiply > button{
+    margin-left: 248px;
+    border: solid black 1px;
+    height: 20px;
+}
+.addResult, .subResult, .multResult{
+    height: 30px;
+    width:  60px;
+    background-color: rgb(202, 210, 218);
+    margin-left: 248px;
+    border: solid black 1px;
+    font-size: 20px;
+    text-align: center;
+}
+

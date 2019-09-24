@@ -33,26 +33,26 @@
 //     arr.push( fruit[i])
 //     console.log(arr)
 // }
-var names =[]
-var occupations=[]
-var peopleArray = [
-    {
-      name: "Harrison Ford",
-      occupation: "Actor"
-    },
-    {
-      name: "Justin Bieber",
-      occupation: "Singer"
-    },
-    {
-      name: "Vladimir Putin",
-      occupation: "Politician"
-    },
-    {
-      name: "Oprah",
-      occupation: "Entertainer"
-    }
-  ]
+// var names =[]
+// var occupations=[]
+// var peopleArray = [
+//     {
+//       name: "Harrison Ford",
+//       occupation: "Actor"
+//     },
+//     {
+//       name: "Justin Bieber",
+//       occupation: "Singer"
+//     },
+//     {
+//       name: "Vladimir Putin",
+//       occupation: "Politician"
+//     },
+//     {
+//       name: "Oprah",
+//       occupation: "Entertainer"
+//     }
+//   ]
 //   for(let i = 0; i < peopleArray.length; i++){
 //       console.log(peopleArray[i].name)
 //   }
@@ -72,14 +72,20 @@ var peopleArray = [
 //     occupations.push(peopleArray[i].occupation)
 //     console.log(occupations)
 // }
-let numArr =[] 
-for(let i = 0; i < 3; i++){
-    numArr.push(0) 
-    for (let j = 0; j < 3; i++){
-        numArr.push()
-    }  
+let numArr = [];
+
+for(i = 0; i < 3; i++){
+  numArr.push([0, 0 ,0]); 
+    
 }
+
 console.log(numArr)
+
+// let numArr = [];
+// for(i = 0; i < 3; i++){
+//     numArr.push([0,0,0]);
+// }
+// console.log(numArr)
 // var num = []
 //     for (var i = 0; i < 3; i++) { 
 //         num.push([])  
