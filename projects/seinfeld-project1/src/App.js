@@ -1,39 +1,21 @@
-import React,{Component} from 'react'
-import axios from 'axios';
+import React from 'react'
+import QuoteList from './components/QuoteList.js'
+import Navbar from './components/Navbar.js'
+import Home from './components/Home.js'
+import Quiz from './components/Quiz.js'
+import {Switch, Route} from 'react-router-dom'
 
-
-class App extends Component{
-    constructor(){
-        super()
-        this.state ={
-            quotes: []
-        }
-    }
-    componentDidMount(){
-        axios.get(' https://seinfeld-quotes.herokuapp.com/quotes')
-            .then(response => {
-                this.setState({
-                    //the response goes into the quotes array
-                    quotes: response.data.quotes 
-                }, () => console.log(this.state))
-            })
-            .catch(error => console.log(error))
-    }
-    render(){
-        const mappedQuotes = this.state.quotes.map(quote =>{
-            return(
-                <div key = {quote._id}>
-                    <p>{quote.author}</p>
-                    <p>{quote.quote}</p>
-                    <p>{quote.image}</p>
-                </div>
-            )
-        })
+const App = () =>{    
         return(
             <div>
-                {mappedQuotes}
+              <Navbar />
+              <Switch>
+                    <Route exact path ='/' component ={Home}/>
+                    <Route path ='/Quiz' component ={Quiz}/>
+              </Switch>  
+              <QuoteList /> 
             </div>
         )
-    }
+    
 }
 export default App
