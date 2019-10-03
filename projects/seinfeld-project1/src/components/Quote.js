@@ -7,7 +7,6 @@ const Quote =(props) => {
     return(
         <div key={props._id} className='quote-container'>
             <h1>{props.quote}</h1>
-            <Answer answer={props.answer}/>
         </div>
     )
 }

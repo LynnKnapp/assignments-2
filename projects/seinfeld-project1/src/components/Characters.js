@@ -29,8 +29,16 @@ import React from 'react'
     
     return(
         <div className = 'characters-container'>
-            <h1>{character.name}</h1>
-            <img src={character.img} height= '500px' width='500px'/>  
+            {props.answerChoice ? 
+                <div>  
+                    <h1>{character.name}</h1>
+                    <img src={character.img} height= '500px' width='500px'/> 
+                </div>
+            :
+            <div>
+            <h1>Your wrong, try again.</h1>     
+            </div>
+            }
         </div>
     )
 }
