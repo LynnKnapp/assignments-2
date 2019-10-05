@@ -5,9 +5,7 @@ const Answer =(props) =>{
     
       return(
         <div key={props._id} className='quote-container'>
-             <h2>{props.author}</h2>
-            <Characters answer={props.answer} imgUrl={props.imgUrl} answerChoice={props.answerChoice}/>
-            
+            <Characters hasAnswered ={props.hasAnswered} author={props.author} userSelection={props.userSelection} answer={props.answer} imgUrl={props.imgUrl} answerChoice={props.answerChoice}/>    
         </div>
             
     )
