@@ -78,14 +78,15 @@ class QuoteList extends Component{
         const quotesArr = this.state.quotes
         const mappedQuotes = quotesArr.map(quote => 
             <Quiz author={this.state.quotes[this.state.currentQuoteIndex].author} 
-            newQuestion ={this.newQuestion} 
-            hasAnswered={this.state.hasAnswered} 
-            userSelection={this.state.userSelection} 
-            answer={quote.author} 
-            answerChoice={this.state.answerChoice} 
-            quote={quote.quote} key={Quote._id} 
-            handleChange={this.handleChange} 
-            handleSubmit={this.handleSubmit}/>)
+                newQuestion ={this.newQuestion} 
+                hasAnswered={this.state.hasAnswered} 
+                userSelection={this.state.userSelection} 
+                answer={quote.author} 
+                answerChoice={this.state.answerChoice} 
+                quote={quote.quote} key={Quote._id} 
+                handleChange={this.handleChange} 
+                handleSubmit={this.handleSubmit}
+            />)
         return(
             <div>
                 {mappedQuotes[this.state.currentQuoteIndex]}
