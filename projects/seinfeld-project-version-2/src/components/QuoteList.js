@@ -3,6 +3,7 @@ import './styles.css'
 import axios from 'axios'
 import Quiz from './Quiz'
 import Quote from './Quote'
+import Logo from './assets/logo.png'
 
 class QuoteList extends Component{
     constructor(){
@@ -89,6 +90,7 @@ class QuoteList extends Component{
             />)
         return(
             <div>
+                <img src={Logo} alt="logo" />
                 {mappedQuotes[this.state.currentQuoteIndex]}
             </div>
         )
