@@ -13,8 +13,7 @@ const App = () =>{
             <Navbar/> 
             <Switch> 
                 <Route exact path ='/' component = {QuoteList}></Route>
-                <Route path ='/characterfacts' render={
-                    ()=>CharacterFacts}></Route>
+                <Route path ='/characterfacts' component={CharacterFacts}></Route>
                 <Route path ='/FavoriteClips' component={FavoriteClips}></Route>
 
             </Switch>
