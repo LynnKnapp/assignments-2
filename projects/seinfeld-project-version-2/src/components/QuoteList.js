@@ -89,8 +89,13 @@ class QuoteList extends Component{
                 handleSubmit={this.handleSubmit}
             />)
         return(
-            <div>
-                <img src={Logo} alt="logo" />
+            <div className='subtitle'>
+                <img style ={{
+                    width: '100%',
+                    height: '400px'}}
+                    src={Logo} alt="logo" />
+                <h1>
+               The Quiz About Absolutely Nothing</h1>    
                 {mappedQuotes[this.state.currentQuoteIndex]}
             </div>
         )
