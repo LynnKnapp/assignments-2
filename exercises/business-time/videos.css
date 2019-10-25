@@ -13,7 +13,7 @@
  }
 body{
     background-image: url("https://images.unsplash.com/photo-1558470622-bd37a3c489e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-
+    margin-left: 150px;
 }
 
 #header{
@@ -110,9 +110,6 @@ iframe{
     margin-top: -20px;
     border: solid rgb(3, 10, 10) 30px;
 
-
-    /* font-family: 'Oleo Script Swash Caps', cursive; */
-    /* font-family: 'Lobster', cursive; */
 }
 span{
     font-family: 'Oleo Script Swash Caps', cursive;
@@ -142,61 +139,14 @@ span{
 
 
 
-@media screen and (min-width: 500px) and(max-width: 768px){
+@media screen and (max-width:600px){
     #video{
         display: flex;
         flex-direction: column;
-        width: 100%;
-        /* display: grid;
-        grid-template-columns: 400px;
-        grid-template-rows: 315px 5px 5px 5px 315px ; */
+        
+        
     }
-    /* #oil-start{
-        grid-row: 1/2;
     
-    } */
-    /* #one{
-        grid-row: 2/3;
-        
-    } */
-    /* #two{
-        grid-row: 3/4;
-        
-    } */
-    /* #three{
-        grid-row: 4/5;
-    } */
-    /* #ten-reasons{
-        grid-row: 5/6;
-    } */
-    /* #four{
-        grid-row: 5/6;
-    }  */
-    /* #five{
-        height: 10px;
-        width: 400px;
-        grid-row: 5/6;
-    } */
-    /* #six{
-        grid-row: 6/7;
-        height: 10px;
-        width: 400px;
-    } */
-
-    
-    /* #ten-reasons{
-        grid-row: 7/8;
-    } */
-    /* #brand-comp{
-        grid-row: 3/4;
-    } */
-    /* #emotion{
-        grid-row: 4/5;
-    }  */
-    /* #tips{
-        grid-row: 5/6;
-    
-    } */
 } 
   
   

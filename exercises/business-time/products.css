@@ -2,10 +2,12 @@ body{
     flex-direction: row; 
     background-image: linear-gradient(to right top, #830d50, #95276a, #a63d85, #b552a2, #c368bf, #c169c6, #bf6ace, #bc6cd6, #aa58c9, #9844bd, #862fb0, #7317a4);
     /* border: solid 100px black; */
-    margin-left: 75px;
+
+    
     
 }
 #singles{
+    margin-left: 240px;
     margin-top: 100px;
     width: 100%;
     display: grid;
@@ -19,8 +21,9 @@ body{
     font-size: 70px;
     text-align: center;
     margin-right: 80px;
+    margin-top: 150px;
     color: rgb(86, 2, 107);
-    text-shadow: -7px 4px 1px #c169c6,;
+    text-shadow: 10px 3px 3px white,
 }
 
 #oils{
@@ -36,8 +39,7 @@ body{
     flex-direction: row;
     font-size: 25px;
     align-items: center;
-    margin-top: -27px;
-    
+    margin-top: 30px;
 
  }
  .active{
@@ -145,15 +147,8 @@ body{
     text-shadow: 4px -1px 0px #1f011f;
     text-align: center;
 }
-@media screen and (max-width:900px){
+@media screen and (max-width: 600px){
     #singles{
-        /* margin-top: 100px;
-        width: 100%;
-        display: grid; */
-        
-        /* grid-template-columns: 300px ;
-        grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
-        grid-gap: 20px; */
 
         display: flex;
         flex-direction: column;
